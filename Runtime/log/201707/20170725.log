@@ -1,0 +1,35 @@
+2017-07-25 17:02:27|INFO|register|{"uid":"1000000039","data":{"mobile":"17512554316","code":"111111","roleid":"2","friend":"18061846006","time":"1500973347020"}}
+2017-07-25 17:02:52|INFO|register|{"uid":"1000000039","data":{"mobile":"17512554316","code":"111111","roleid":"2","friend":"18061846006","time":"1500973372736"}}
+2017-07-25 17:06:38|INFO|register|{"uid":"1000000039","data":{"mobile":"17512554316","code":"111111","roleid":"2","friend":"18061846606","time":"1500973598636"}}
+2017-07-25 17:07:35|ERROR|Message.SendCode|PDOException: Duplicate entry '1000000039' for key 'PRIMARY' in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/Message.php(15): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/Message.php(15): Model_Message->postMessage('1000000039', '17512554316', '293349697201')
+#4 /data/wwwroot/PhalApi/App/Api/Message.php(41): Domain_Message->postMessage('1000000039', '17512554316', '293349697201')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_Message->sendCode()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-25 17:07:59|INFO|register|{"uid":"1000000039","data":{"mobile":"17512554316","code":"111111","roleid":"2","friend":"18061846006","time":"1500973678989"}}
+2017-07-25 17:08:05|INFO|register|{"uid":"1000000039","data":{"mobile":"17512554316","code":"111111","roleid":"2","time":"1500973685440"}}
+2017-07-25 17:08:07|INFO|register|{"uid":"1000000039","data":{"mobile":"17512554316","code":"111111","roleid":"2","time":"1500973687480"}}
+2017-07-25 17:23:55|ERROR|Message.SendCode|PDOException: Duplicate entry '1000000039' for key 'PRIMARY' in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/Message.php(15): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/Message.php(15): Model_Message->postMessage('1000000039', '17512554316', '293357725227')
+#4 /data/wwwroot/PhalApi/App/Api/Message.php(41): Domain_Message->postMessage('1000000039', '17512554316', '293357725227')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_Message->sendCode()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-25 17:24:03|INFO|register|{"uid":"1000000039","data":{"mobile":"17512554316","code":"111111","roleid":"2","friend":"18061846006","time":"1500974643601"}}
+2017-07-25 17:24:26|INFO|register|{"uid":"1000000039","data":{"mobile":"17512554316","code":"111111","roleid":"2","friend":"18061846006","time":"1500974666726"}}
+2017-07-25 17:24:28|INFO|register|{"uid":"1000000039","data":{"mobile":"17512554316","code":"111111","roleid":"2","friend":"18061846006","time":"1500974668469"}}
+2017-07-25 17:24:29|INFO|register|{"uid":"1000000039","data":{"mobile":"17512554316","code":"111111","roleid":"2","friend":"18061846006","time":"1500974669819"}}
+2017-07-25 17:24:31|INFO|register|{"uid":"1000000039","data":{"mobile":"17512554316","code":"111111","roleid":"2","friend":"18061846006","time":"1500974671186"}}
+2017-07-25 17:25:15|INFO|register|{"uid":"1000000039","data":{"mobile":"13625572670","code":"354718","roleid":"2","friend":"18061846006","time":"1500974715763"}}
+2017-07-25 17:27:21|INFO|register|{"uid":"1000000040","data":{"mobile":"13792899229","code":"936533","roleid":"2","time":"1500974838577"}}
+2017-07-25 19:51:24|INFO|putBusinessSign|{"uid":"1000000039","data":{"bid":"100000043","seller_name":"\u5f90\u4e3a","seller_mobile":"13625572670","seller_ID":"342222199104267210","seller_ID1_photo":"fC1J6pJQgu7RVYY4rO_IfZX6ABTRHttVDTNIjrFR6JRNFAasbg7l2HvKP3piBEOK","seller_ID2_photo":"1_qWEy0ye1btoT7HfAqL39Dx8qq74yr8oUbTEyyqjfH_li6z5KljpZnhBfp8YuzF","buyer_name":"\u6211","buyer_mobile":"13625572670","buyer_ID":"34","buyer_ID1_photo":"Ia0QDnuIM6QDMhJtDW79Z4TgtLupa5i0xM2ENfRcLgyGQu9fmotXs1AK97_Y3AuR","buyer_ID2_photo":"kdIAUFL1tnotxSlSeFQnQU5l6ilLFNBAdfLGl9GF9Gu7dGoEwvhwKr0xQnkneXkU","business_price":"100","business_loan":"100","business_fund":"100","business_photo":"Op05IGAQpX3W4dnWkmKhJ7oWGw3vuT-HSuaVNEU40BCwj03YxoC1s142AUS6rrET","house_address":"\u6211","house_prove1_photo":"VEy2fDSgzv4jfuXuwvbOhIC6wiP0xZ7wCEU_Tjw4RCe7DT_-q-udC1dPcoExwNat","house_prove2_photo":"5hszGGMQ9ai9RZqcKbhZMRC6DRfaerXEc4uY85BdagrEg_InGixheulJIdLnkQxM","house_fund_photo":"qAgwjljZigdsZi18uHltyGhNooN9r1sECOrCtYDsImA4QIkX4rbgBYYEGgPBqgty","house_prove_photo":"uqZW8ewc4uj-4LVYbvm7XXB01YJDuCPSrV7dauRbP6mESRBtD71bK9LQOSO-iHDe"}}
+2017-07-25 19:52:30|INFO|putBusinessAssess|{"uid":"1000000039","data":{"bid":"100000043","bank_name":"\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c","house_out1_photo":"fLA9xFLUSgrt97IKIBba-nAwVRej4rxz_E5jbVWefCSEOxmiuEt9F5l2Vl-2xFqE","house_out2_photo":"naopSWDmjep_U3jVZYwMOeCiHpKtWocuIyII7tUpJhYrd3PIvK3MuF9PtBhnWHEE","house_out3_photo":"Fn83RTB94Zy2tgwU3Dy3X8oNSPrEDiyDWt9_76uCgxoTXJnDeHte1s5T00zsCglc","house_out4_photo":"kdIAUFL1tnotxSlSeFQnQVXtAQlYRdOy30gU7SKKoGpaEuDekWxGQjZuxGAJar5W","house_bedroom1_photo":"5hszGGMQ9ai9RZqcKbhZMZbdxwri0bL81_rssWh-TdapSasgax0fBRELs9wFMOzp","house_bedroom2_photo":"nG_Y5Xpr43XsZ9UUWOvgehfH9UBTbwW1avIzJKlpqrf273D7-4NZkR1fxhZk-nPd","house_bedroom3_photo":"VcUZKFvg0EvQbyUH24-bX2BVSJgi_6bq1MqcJMXu1KwLftUW-AFPuR6bwH2-kbq9","house_living1_photo":"imSJJ5el0WJnSLTJ4NS9CJOF4lMLZQmDs7kj8A0ifK2BkRzAI8wIacrgELDdebI-","house_living2_photo":"imSJJ5el0WJnSLTJ4NS9CJOF4lMLZQmDs7kj8A0ifK2BkRzAI8wIacrgELDdebI-","house_living3_photo":"imSJJ5el0WJnSLTJ4NS9CJOF4lMLZQmDs7kj8A0ifK2BkRzAI8wIacrgELDdebI-","house_kitchen1_photo":"B_wtyDFSw_GgQZfkCSN0BMKp0CFDWB9B3MYCKYBbkpuROuerTeU6pwi7ZXwZ1UWf","house_kitchen2_photo":"0h8VEGlan5bkb9Rv8og6Pkde-NPV-QXTmLwDLmrRDo6I2Wgm4yNReLmgXLZGhPWt","house_toilet1_photo":"naopSWDmjep_U3jVZYwMOZ4BRwQFGJhea-7j1yQNQvyCVrqXN7_OIIq37ILYXxVN","house_toilet2_photo":"B_wtyDFSw_GgQZfkCSN0BJsTeZr39m_BnaRf69tmqI3K5CjWUR0Xvv1zVo9ANMLO"}}

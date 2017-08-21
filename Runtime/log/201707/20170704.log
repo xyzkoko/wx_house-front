@@ -1,0 +1,20 @@
+2017-07-04 20:33:54|ERROR|Message.SendCode|PDOException: Duplicate entry '1000000000' for key 'PRIMARY' in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/Message.php(14): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/Message.php(15): Model_Message->postMessage('1000000000', 'cb9bf092-aac0-4...')
+#4 /data/wwwroot/PhalApi/App/Api/Message.php(40): Domain_Message->postMessage('1000000000', 'cb9bf092-aac0-4...')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_Message->sendCode()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-04 20:42:39|ERROR|Message.SendCode|PDOException: Duplicate entry '1000000000' for key 'PRIMARY' in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/Message.php(14): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/Message.php(15): Model_Message->postMessage('1000000000', '5e031626-4f83-4...')
+#4 /data/wwwroot/PhalApi/App/Api/Message.php(40): Domain_Message->postMessage('1000000000', '5e031626-4f83-4...')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_Message->sendCode()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}

@@ -1,0 +1,89 @@
+2017-07-06 09:51:14|ERROR|Message.SendCode|PDOException: Out of range value for column 'mobile' at row 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/Message.php(15): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/Message.php(15): Model_Message->postMessage('1000000000', '17512554316', 'b8fe564a-396e-4...')
+#4 /data/wwwroot/PhalApi/App/Api/Message.php(41): Domain_Message->postMessage('1000000000', '17512554316', 'b8fe564a-396e-4...')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_Message->sendCode()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-06 16:09:02|ERROR|Business.PutBusinessSign|PDOException: Unknown column '123_2_w_photo' in 'field list' in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(393): NotORM_Result->query('UPDATE pa_busin...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(41): NotORM_Result->update(Array)
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(27): Model_Business->putBusinessSign(1000000007, '1', Array)
+#3 /data/wwwroot/PhalApi/App/Api/Business.php(131): Domain_Business->putBusinessSign(1000000007, '1', Array)
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_Business->putBusinessSign()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-06 17:46:33|ERROR|User.Sign|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT create_d...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Points.php(9): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Points.php(15): Model_Points->getSign(NULL)
+#4 /data/wwwroot/PhalApi/App/Api/User.php(131): Domain_Points->getSign(NULL)
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->sign()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-06 17:47:00|ERROR|User.Sign|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT create_d...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Points.php(9): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Points.php(15): Model_Points->getSign(1000000007)
+#4 /data/wwwroot/PhalApi/App/Api/User.php(131): Domain_Points->getSign(1000000007)
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->sign()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-06 17:47:56|ERROR|User.Sign|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT create_d...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Points.php(9): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Points.php(15): Model_Points->getSign(1000000007)
+#4 /data/wwwroot/PhalApi/App/Api/User.php(131): Domain_Points->getSign(1000000007)
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->sign()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-06 17:47:57|ERROR|User.Sign|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT create_d...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Points.php(9): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Points.php(15): Model_Points->getSign(1000000007)
+#4 /data/wwwroot/PhalApi/App/Api/User.php(131): Domain_Points->getSign(1000000007)
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->sign()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-06 17:47:57|ERROR|User.Sign|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT create_d...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Points.php(9): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Points.php(15): Model_Points->getSign(1000000007)
+#4 /data/wwwroot/PhalApi/App/Api/User.php(131): Domain_Points->getSign(1000000007)
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->sign()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-06 17:47:58|ERROR|User.Sign|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT create_d...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Points.php(9): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Points.php(15): Model_Points->getSign(1000000007)
+#4 /data/wwwroot/PhalApi/App/Api/User.php(131): Domain_Points->getSign(1000000007)
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->sign()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-06 17:48:54|ERROR|User.Sign|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT create_d...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Points.php(9): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Points.php(15): Model_Points->getSign(1000000007)
+#4 /data/wwwroot/PhalApi/App/Api/User.php(131): Domain_Points->getSign(1000000007)
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->sign()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}

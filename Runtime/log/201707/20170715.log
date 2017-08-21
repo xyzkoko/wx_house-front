@@ -1,0 +1,11 @@
+2017-07-15 20:07:44|ERROR|WeiChat.index|PDOException: Column 'openid' cannot be null in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/WeiChat.php(28): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/WeiChat.php(26): Model_WeiChat->postUserInfo(Array)
+#4 /data/wwwroot/PhalApi/App/Api/WeiChat.php(48): Domain_WeiChat->postUserInfo(Array)
+#5 /data/wwwroot/PhalApi/App/Api/WeiChat.php(19): Api_WeiChat->oauth2('register', '0517Qs7v0VzJad1...')
+#6 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_WeiChat->index()
+#7 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#8 {main}

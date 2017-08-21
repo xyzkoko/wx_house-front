@@ -1,0 +1,207 @@
+2017-07-20 22:58:34|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys =,'sign_money'' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from l...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(126): NotORM_Result->queryRows('select * from l...', Array)
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 22:58:52|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys =,'sign_money'' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from l...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(126): NotORM_Result->queryRows('select * from l...', Array)
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 23:00:12|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = 'sign_money'' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from l...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(126): NotORM_Result->queryRows('select * from l...', Array)
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 23:03:08|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = 'sign_money'' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from l...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(126): NotORM_Result->queryRows('select * from l...', Array)
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 23:03:46|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = sign_money' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from l...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(125): NotORM_Result->queryRows('select * from l...')
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 23:04:26|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = sign_money' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from l...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(125): NotORM_Result->queryRows('select * from l...')
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 23:05:45|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = sign_money' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from l...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(125): NotORM_Result->queryRows('select * from l...')
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 23:26:53|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = sign_money' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from l...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(125): NotORM_Result->queryRows('select * from l...')
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 23:27:47|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = sign_money' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from l...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(125): NotORM_Result->queryRows('select * from l...')
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 23:28:07|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = sign_money' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from l...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(125): NotORM_Result->queryRows('select * from l...')
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 23:28:30|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = sign_money' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from l...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(874): NotORM_Result->queryRows('select * from l...', Array)
+#2 /data/wwwroot/PhalApi/App/Model/Business.php(125): NotORM_Result->queryAll('select * from l...')
+#3 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-20 23:29:39|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = sign_money' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from p...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(125): NotORM_Result->queryRows('select * from p...')
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 23:31:21|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = 'sign_money'' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from p...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(126): NotORM_Result->queryRows('select * from p...', Array)
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 23:31:30|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = 'sign_money'' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(883): NotORM_Result->query('select * from p...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Business.php(126): NotORM_Result->queryRows('select * from p...', Array)
+#2 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#3 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-20 23:35:19|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = 'sign_money') LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Business.php(124): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-20 23:35:19|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = 'sign_money') LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Business.php(124): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-20 23:35:20|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = 'sign_money') LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Business.php(124): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-20 23:35:20|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = 'sign_money') LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Business.php(124): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-20 23:35:21|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = 'sign_money') LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Business.php(124): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-20 23:35:21|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = 'sign_money') LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Business.php(124): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-20 23:35:21|ERROR|User.Info|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'keys = 'sign_money') LIMIT 1' at line 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Business.php(124): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}
+2017-07-20 23:36:40|ERROR|User.Info|PDOException: Table 'phalapi_app.pa_la_common' doesn't exist in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/Business.php(124): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/Business.php(55): Model_Business->getCommonValue('sign_money')
+#4 /data/wwwroot/PhalApi/App/Api/User.php(145): Domain_Business->getCommonValue('sign_money')
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->info()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#7 {main}

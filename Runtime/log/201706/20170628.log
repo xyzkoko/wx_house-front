@@ -1,0 +1,68 @@
+2017-06-28 12:10:17|ERROR|WeiChat.Oauth2|PDOException: Table 'phalapi_app.pa_pa_user' doesn't exist in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(780): NotORM_Result->query('SELECT uid FROM...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(848): NotORM_Result->execute()
+#2 /data/wwwroot/PhalApi/App/Model/User.php(16): NotORM_Result->fetchRow()
+#3 /data/wwwroot/PhalApi/App/Domain/User.php(10): Model_User->GetUserInfoByOpenId('oZ26Lv7Pb8Urvna...')
+#4 /data/wwwroot/PhalApi/App/Domain/User.php(15): Domain_User->GetUserInfoByOpenId('oZ26Lv7Pb8Urvna...')
+#5 /data/wwwroot/PhalApi/App/Api/WeiChat.php(82): Domain_User->WeiChatRegister(Array)
+#6 /data/wwwroot/PhalApi/App/Api/WeiChat.php(62): Api_WeiChat->register(Array)
+#7 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_WeiChat->oauth2()
+#8 /data/wwwroot/PhalApi/Public/app/index.php(14): PhalApi->response()
+#9 {main}
+2017-06-28 12:10:52|ERROR|WeiChat.Oauth2|PDOException: Incorrect integer value: 'oZ26Lv7Pb8Urvna2waggB7zx4REk' for column 'openid' at row 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/User.php(23): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/User.php(17): Model_User->WeiChatRegister(Array)
+#4 /data/wwwroot/PhalApi/App/Api/WeiChat.php(82): Domain_User->WeiChatRegister(Array)
+#5 /data/wwwroot/PhalApi/App/Api/WeiChat.php(62): Api_WeiChat->register(Array)
+#6 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_WeiChat->oauth2()
+#7 /data/wwwroot/PhalApi/Public/app/index.php(14): PhalApi->response()
+#8 {main}
+2017-06-28 12:12:20|ERROR|WeiChat.Oauth2|PDOException: Incorrect integer value: 'oZ26Lv7Pb8Urvna2waggB7zx4REk' for column 'openid' at row 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/User.php(23): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/User.php(17): Model_User->WeiChatRegister(Array)
+#4 /data/wwwroot/PhalApi/App/Api/WeiChat.php(82): Domain_User->WeiChatRegister(Array)
+#5 /data/wwwroot/PhalApi/App/Api/WeiChat.php(62): Api_WeiChat->register(Array)
+#6 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_WeiChat->oauth2()
+#7 /data/wwwroot/PhalApi/Public/app/index.php(14): PhalApi->response()
+#8 {main}
+2017-06-28 12:14:18|ERROR|WeiChat.Oauth2|PDOException: Column 'openid' cannot be null in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/User.php(23): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/User.php(17): Model_User->WeiChatRegister(Array)
+#4 /data/wwwroot/PhalApi/App/Api/WeiChat.php(82): Domain_User->WeiChatRegister(Array)
+#5 /data/wwwroot/PhalApi/App/Api/WeiChat.php(62): Api_WeiChat->register(Array)
+#6 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_WeiChat->oauth2()
+#7 /data/wwwroot/PhalApi/Public/app/index.php(14): PhalApi->response()
+#8 {main}
+2017-06-28 13:24:46|ERROR|WeiChat.Oauth2|PDOException: Column 'openid' cannot be null in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/User.php(24): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/User.php(17): Model_User->WeiChatRegister(Array)
+#4 /data/wwwroot/PhalApi/App/Api/WeiChat.php(81): Domain_User->WeiChatRegister(Array)
+#5 /data/wwwroot/PhalApi/App/Api/WeiChat.php(62): Api_WeiChat->register(Array)
+#6 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_WeiChat->oauth2()
+#7 /data/wwwroot/PhalApi/Public/app/index.php(14): PhalApi->response()
+#8 {main}
+2017-06-28 13:43:54|ERROR|WeiChat.Oauth2|PDOException: Column 'openid' cannot be null in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/User.php(24): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/User.php(17): Model_User->WeiChatRegister(Array)
+#4 /data/wwwroot/PhalApi/App/Api/WeiChat.php(81): Domain_User->WeiChatRegister(Array)
+#5 /data/wwwroot/PhalApi/App/Api/WeiChat.php(62): Api_WeiChat->register(Array)
+#6 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_WeiChat->oauth2()
+#7 /data/wwwroot/PhalApi/Public/app/index.php(14): PhalApi->response()
+#8 {main}
+2017-06-28 19:39:58|DEBUG|Wrong Sign|{"needSign":"8bd9038241f1f7641e81c9b713fcf256"}

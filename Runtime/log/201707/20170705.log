@@ -1,0 +1,18 @@
+2017-07-05 17:22:11|ERROR|Role.PutBrokerInfo|PDOException: Data too long for column 'licence_photo' at row 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(393): NotORM_Result->query('UPDATE pa_role_...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Role.php(63): NotORM_Result->update(Array)
+#2 /data/wwwroot/PhalApi/App/Domain/Role.php(49): Model_Role->putBrokerInfo(1000000000, Array)
+#3 /data/wwwroot/PhalApi/App/Api/Role.php(67): Domain_Role->putBrokerInfo(1000000000, Array)
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_Role->putBrokerInfo()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}
+2017-07-05 17:30:25|ERROR|Role.PutBrokerInfo|PDOException: Data too long for column 'licence_photo' at row 1 in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(393): NotORM_Result->query('UPDATE pa_role_...', Array)
+#1 /data/wwwroot/PhalApi/App/Model/Role.php(63): NotORM_Result->update(Array)
+#2 /data/wwwroot/PhalApi/App/Domain/Role.php(49): Model_Role->putBrokerInfo(1000000000, Array)
+#3 /data/wwwroot/PhalApi/App/Api/Role.php(67): Domain_Role->putBrokerInfo(1000000000, Array)
+#4 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_Role->putBrokerInfo()
+#5 /data/wwwroot/PhalApi/Public/app/index.php(19): PhalApi->response()
+#6 {main}

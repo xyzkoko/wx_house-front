@@ -1,0 +1,20 @@
+2017-07-03 09:32:12|ERROR|User.Register|PDOException: Column 'uid' cannot be null in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/Role.php(16): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/Role.php(13): Model_Role->BankRegister(NULL, Array)
+#4 /data/wwwroot/PhalApi/App/Api/User.php(31): Domain_Role->BankRegister(NULL, Array)
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->register()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(15): PhalApi->response()
+#7 {main}
+2017-07-03 09:33:58|ERROR|User.Register|PDOException: Column 'uid' cannot be null in /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php:246
+Stack trace:
+#0 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(323): NotORM_Result->query('INSERT INTO pa_...', Array)
+#1 /data/wwwroot/PhalApi/PhalApi/NotORM/NotORM/Result.php(340): NotORM_Result->insert_multi(Array)
+#2 /data/wwwroot/PhalApi/App/Model/Role.php(15): NotORM_Result->insert(Array)
+#3 /data/wwwroot/PhalApi/App/Domain/Role.php(13): Model_Role->BankRegister(NULL, Array)
+#4 /data/wwwroot/PhalApi/App/Api/User.php(31): Domain_Role->BankRegister(NULL, Array)
+#5 /data/wwwroot/PhalApi/PhalApi/PhalApi.php(55): Api_User->register()
+#6 /data/wwwroot/PhalApi/Public/app/index.php(15): PhalApi->response()
+#7 {main}
